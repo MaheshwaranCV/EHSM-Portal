@@ -1,0 +1,33 @@
+<mvc:View controllerName="maheshehsmportal.controller.viewd"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="DASHBOARD" class="bg2">
+    <content>
+	<VBox id="_IDGenVBox1" fitContainer="true" justifyContent="Center" alignItems="Center" alignContent="Center">
+		<HBox id="_IDGenHBox1" fitContainer="true" justifyContent="Center" alignItems="Center" alignContent="Center">
+
+			<GenericTile id="_IDGenGenericTile4" class="sapUiTinyMarginBegin sapUiTinyMarginTop"
+				backgroundImage="https://thumbs.dreamstime.com/z/incident-management-cycle-explained-hand-businessman-pressing-word-blue-background-71205337.jpg"
+				frameType="TwoByOne" press="onLogin1">
+					<TileContent id="_IDGenTileContent4" footer="INCIDENT MANAGEMENT">
+						<NewsContent id="_IDGenImageContent4"
+							contentText="Incident management involves efficient handling and resolution of workplace incidents to ensure safety and compliance."/>
+					</TileContent>
+			</GenericTile>
+
+			<GenericTile id="_IDGenGenericTile5" class="sapUiTinyMarginBegin sapUiTinyMarginTop"
+				backgroundImage="https://thumbs.dreamstime.com/z/risk-assessment-high-return-man-turning-selector-button-to-medium-position-investment-financial-concept-composite-image-87851654.jpg"
+				frameType="TwoByOne" press="onLogin2">
+					<TileContent id="_IDGenTileContent5" footer="RISK ASSESSMENT">
+						<NewsContent id="_IDGenImageContent5"
+						contentText="Risk assessment is a process of evaluating potential hazards and determining their likelihood and impact to support informed decision-making."/>
+					</TileContent>
+			</GenericTile>
+				
+		</HBox>
+		<FlexBox id="FB" height="4rem"/>
+			<Button id="_IDGenButton5"  width="20rem" text="LOGOUT" press="logout"/>
+	</VBox>
+	</content>
+    </Page>
+</mvc:View>
